@@ -15,7 +15,7 @@
     <tr>
         <td><?php echo ++$key ?></td>
         <td><?php echo $book->name ?></td>
-        <td><?php echo $book->Author ?>
+        <td><?php echo $book->author ?>
 <!--        <td> <a href="./index.php?page=edit&id=--><?php //echo $book->id; ?><!--" class="btn btn-sm">Update</a></td>-->
 <!--        <td> <a href="./index.php?page=delete&id=--><?php //echo $book->id; ?><!--" class="btn btn-warning btn-sm">Delete</a></td>-->
         <?php endforeach; ?>

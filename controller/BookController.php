@@ -3,6 +3,7 @@
 
 namespace Controller;
 
+use Model\Book;
 use Model\BookDB;
 use Model\DBConnection;
 
@@ -20,5 +21,19 @@ class BookController
     {
         $books = $this->bookDB->getAll();
         include 'view/book/list.php';
+    }
+
+    public function create()
+    {
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+            include 'view/book/add.php';
+        } else {
+            $name = $_POST['name'];
+            $author = $_POST['author'];
+            $book = new Book($name, $author);
+            $this->bookDB->create($book);
+            $message = 'created!';
+            include 'view/book/add.php';
+        }
     }
 }

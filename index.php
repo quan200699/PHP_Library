@@ -27,7 +27,7 @@ use \Controller\BookController;
     $page = isset($_REQUEST['page'])? $_REQUEST['page'] : NULL;
     switch ($page){
         case 'add':
-//            $controller->add();
+            $controller->create();
             break;
         case 'delete':
 //            $controller->delete();
