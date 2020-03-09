@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44c47987-88af-4c43-b096-00020cf43c41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/view/book/update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/book/delete.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/BookController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/BookDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/BookDB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/book/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/book/list.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583740553231</updated>
-      <workItem from="1583740554418" duration="4502000" />
+      <workItem from="1583740554418" duration="4792000" />
     </task>
     <servers />
   </component>
@@ -119,14 +118,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="158" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583740747900" />
+    <state width="1266" height="252" key="GridCell.Tab.0.bottom" timestamp="1583745072940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1266" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583745072940" />
+    <state width="1266" height="252" key="GridCell.Tab.0.center" timestamp="1583745072940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1266" height="252" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583745072940" />
+    <state width="1266" height="252" key="GridCell.Tab.0.left" timestamp="1583745072940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1266" height="252" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583745072940" />
+    <state width="1266" height="252" key="GridCell.Tab.0.right" timestamp="1583745072940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1266" height="252" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583745072940" />
     <state x="692" y="251" key="NewPhpClassDialog" timestamp="1583742144999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="692" y="251" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583742144999" />
-    <state x="728" y="411" key="NewPhpFileDialog" timestamp="1583744183228">
+    <state x="728" y="411" key="NewPhpFileDialog" timestamp="1583745117497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="728" y="411" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583744183228" />
+    <state x="728" y="411" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583745117497" />
     <state x="544" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583741583905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

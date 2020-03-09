@@ -51,11 +51,19 @@ class BookDB
 
     public function update($id, $book)
     {
-        $sql = 'UPDATE books SET name = ?, author = ? WHERE  id =?';
+        $sql = 'UPDATE books SET name = ?, authorb = ? WHERE  id =?';
         $statement = $this->connection->prepare($sql);
         $statement->bindParam(1, $book->name);
         $statement->bindParam(2, $book->author);
         $statement->bindParam(3, $id);
+        return $statement->execute();
+    }
+
+    public function delete($id)
+    {
+        $sql = 'DELETE FROM books WHERE id = ?';
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(1, $id);
         return $statement->execute();
     }
 }

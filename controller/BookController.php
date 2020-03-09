@@ -50,4 +50,17 @@ class BookController
             header('Location: index.php');
         }
     }
+
+    public function delete()
+    {
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+            $id = $_GET['id'];
+            $book = $this->bookDB->getOne($id);
+            include 'view/book/delete.php';
+        } else {
+            $id = $_POST['id'];
+            $this->bookDB->delete($id);
+            header('Location: index.php');
+        }
+    }
 }

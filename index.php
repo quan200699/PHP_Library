@@ -30,7 +30,7 @@ use \Controller\BookController;
             $controller->create();
             break;
         case 'delete':
-//            $controller->delete();
+            $controller->delete();
             break;
         case 'edit':
             $controller->update();
