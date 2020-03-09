@@ -33,7 +33,7 @@ use \Controller\BookController;
 //            $controller->delete();
             break;
         case 'edit':
-//            $controller->update();
+            $controller->update();
             break;
         default:
             $controller->getAll();

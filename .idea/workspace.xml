@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44c47987-88af-4c43-b096-00020cf43c41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/book/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/book/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/BookController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
@@ -72,6 +71,28 @@
       <recent name="C:\xampp\htdocs\PHP\library" />
     </key>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@31dc93bb" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -82,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583740553231</updated>
-      <workItem from="1583740554418" duration="2992000" />
+      <workItem from="1583740554418" duration="4502000" />
     </task>
     <servers />
   </component>
@@ -102,10 +123,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="692" y="251" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583742144999" />
-    <state x="728" y="411" key="NewPhpFileDialog" timestamp="1583743224139">
+    <state x="728" y="411" key="NewPhpFileDialog" timestamp="1583744183228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="728" y="411" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583743224139" />
+    <state x="728" y="411" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583744183228" />
     <state x="544" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583741583905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

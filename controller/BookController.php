@@ -36,4 +36,18 @@ class BookController
             include 'view/book/add.php';
         }
     }
+
+    public function update()
+    {
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+            $id = $_GET['id'];
+            $book = $this->bookDB->getOne($id);
+            include 'view/book/update.php';
+        } else {
+            $id = $_POST['id'];
+            $book = new Book($_POST['name'], $_POST['author']);
+            $this->bookDB->update($id, $book);
+            header('Location: index.php');
+        }
+    }
 }
