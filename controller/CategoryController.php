@@ -36,4 +36,18 @@ class CategoryController
             include 'view/category/create.php';
         }
     }
+
+    public function update()
+    {
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+            $id = $_GET['id'];
+            $category = $this->categoryDB->getOne($id);
+            include 'view/category/update.php';
+        } else {
+            $id = $_POST['id'];
+            $category = new Category($_POST['name']);
+            $this->categoryDB->update($id, $category);
+            header('Location: category-management.php');
+        }
+    }
 }

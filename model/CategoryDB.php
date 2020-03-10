@@ -35,4 +35,25 @@ class CategoryDB
         $statement->bindParam(1, $category->name);
         return $statement->execute();
     }
+
+    public function update($id, $category)
+    {
+        $sql = 'UPDATE categories SET name = ? WHERE  id = ?';
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(1, $category->name);
+        $statement->bindParam(2, $id);
+        return $statement->execute();
+    }
+
+    public function getOne($id)
+    {
+        $sql = 'SELECT * FROM categories WHERE  id = ?';
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(1, $id);
+        $statement->execute();
+        $row = $statement->fetch();
+        $category = new Category($row['name']);
+        $category->id = $row['id'];
+        return $category;
+    }
 }

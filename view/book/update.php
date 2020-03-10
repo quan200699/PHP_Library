@@ -1,5 +1,5 @@
 <h2>Update book information</h2>
-<form method="post" action="./index.php?page=edit">
+<form method="post" action="./book-management.php?page=edit">
     <input type="hidden" name="id" value="<?php echo $book->id; ?>"/>
     <div class="form-group">
         <label>Name</label>
@@ -11,6 +11,6 @@
     </div>
     <div class="form-group">
         <input type="submit" value="Update" class="btn btn-primary"/>
-        <a href="index.php" class="btn btn-default">Cancel</a>
+        <a href="category-management.php" class="btn btn-default">Cancel</a>
     </div>
 </form>

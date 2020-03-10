@@ -36,7 +36,7 @@ use \Controller\CategoryController;
 //            $controller->delete();
             break;
         case 'edit':
-//            $controller->update();
+            $controller->update();
             break;
         default:
             $controller->getAll();

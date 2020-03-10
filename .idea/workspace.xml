@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44c47987-88af-4c43-b096-00020cf43c41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/view/category/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/category/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/category-management.php" beforeDir="false" afterPath="$PROJECT_DIR$/category-management.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/BookController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/CategoryDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/CategoryDB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/book/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/book/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/category/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/category/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/book/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/book/update.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583740553231</updated>
-      <workItem from="1583740554418" duration="9867000" />
+      <workItem from="1583740554418" duration="10853000" />
     </task>
     <servers />
   </component>
@@ -141,10 +141,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="692" y="251" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583746036100" />
-    <state x="728" y="411" key="NewPhpFileDialog" timestamp="1583802475787">
+    <state x="728" y="411" key="NewPhpFileDialog" timestamp="1583803157478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="728" y="411" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583802475787" />
+    <state x="728" y="411" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583803157478" />
     <state x="544" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583745679084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

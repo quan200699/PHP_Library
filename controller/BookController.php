@@ -47,7 +47,7 @@ class BookController
             $id = $_POST['id'];
             $book = new Book($_POST['name'], $_POST['author']);
             $this->bookDB->update($id, $book);
-            header('Location: index.php');
+            header('Location: book-management.php');
         }
     }
 
@@ -60,7 +60,7 @@ class BookController
         } else {
             $id = $_POST['id'];
             $this->bookDB->delete($id);
-            header('Location: index.php');
+            header('Location: book-management.php');
         }
     }
 }
