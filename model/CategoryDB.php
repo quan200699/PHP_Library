@@ -56,4 +56,12 @@ class CategoryDB
         $category->id = $row['id'];
         return $category;
     }
+
+    public function delete($id)
+    {
+        $sql = 'DELETE FROM categories WHERE  id = ?';
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(1, $id);
+        return $statement->execute();
+    }
 }

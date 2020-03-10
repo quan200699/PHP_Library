@@ -50,4 +50,17 @@ class CategoryController
             header('Location: category-management.php');
         }
     }
+
+    public function delete()
+    {
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+            $id = $_GET['id'];
+            $category = $this->categoryDB->getOne($id);
+            include 'view/category/delete.php';
+        } else {
+            $id = $_POST['id'];
+            $this->categoryDB->delete($id);
+            header('Location: category-management.php');
+        }
+    }
 }
