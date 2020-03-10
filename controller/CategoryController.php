@@ -4,6 +4,7 @@
 namespace Controller;
 
 
+use Model\Category;
 use Model\CategoryDB;
 use Model\DBConnection;
 
@@ -21,5 +22,18 @@ class CategoryController
     {
         $categories = $this->categoryDB->getAll();
         include 'view/category/list.php';
+    }
+
+    public function create()
+    {
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+            include 'view/category/create.php';
+        } else {
+            $name = $_POST['name'];
+            $category = new Category($name);
+            $this->categoryDB->create($category);
+            $message = 'Created!';
+            include 'view/category/create.php';
+        }
     }
 }

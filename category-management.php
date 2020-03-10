@@ -30,7 +30,7 @@ use \Controller\CategoryController;
     $page = isset($_REQUEST['page'])? $_REQUEST['page'] : NULL;
     switch ($page){
         case 'add':
-//            $controller->create();
+            $controller->create();
             break;
         case 'delete':
 //            $controller->delete();

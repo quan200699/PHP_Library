@@ -27,4 +27,12 @@ class CategoryDB
         }
         return $categories;
     }
+
+    public function create($category)
+    {
+        $sql = 'INSERT INTO categories (name) VALUES (?)';
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(1, $category->name);
+        return $statement->execute();
+    }
 }
