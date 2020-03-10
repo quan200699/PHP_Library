@@ -1,4 +1,10 @@
 <?php
+require "model/DBConnection.php";
+require "model/BookDB.php";
+require "model/Book.php";
+require "controller/BookController.php";
+
+use \Controller\BookController;
 ?>
 <!doctype html>
 <html lang="en">
@@ -14,13 +20,30 @@
 
 <div class="container">
     <div class="navbar navbar-default">
-        <a class="navbar-brand" href="book-management.php">Book management</a>
+        <a class="navbar-brand" href="index.php">Home</a>
     </div>
     <div class="navbar navbar-default">
-        <a class="navbar-brand" href="category-management.php">Category management</a>
+        <a class="navbar-brand" href="book-management.php">Book management</a>
     </div>
+    <?php
+    $controller = new BookController();
+    $page = isset($_REQUEST['page'])? $_REQUEST['page'] : NULL;
+    switch ($page){
+        case 'add':
+            $controller->create();
+            break;
+        case 'delete':
+            $controller->delete();
+            break;
+        case 'edit':
+            $controller->update();
+            break;
+        default:
+            $controller->getAll();
+            break;
+    }
+    ?>
 </div>
-
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

@@ -4,7 +4,7 @@
 namespace Model;
 
 
-class BookDB
+class   BookDB
 {
     public $connection;
 
