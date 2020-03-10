@@ -47,16 +47,18 @@ class BookDB
         $row = $statement->fetch();
         $book = new Book($row['name'], $row['author']);
         $book->id = $row['id'];
+        $book->category = $row['category_id'];
         return $book;
     }
 
     public function update($id, $book)
     {
-        $sql = 'UPDATE books SET name = ?, authorb = ? WHERE  id =?';
+        $sql = 'UPDATE books SET name = ?, author = ?, category_id = ? WHERE  id =?';
         $statement = $this->connection->prepare($sql);
         $statement->bindParam(1, $book->name);
         $statement->bindParam(2, $book->author);
-        $statement->bindParam(3, $id);
+        $statement->bindParam(3, $book->category);
+        $statement->bindParam(4, $id);
         return $statement->execute();
     }
 

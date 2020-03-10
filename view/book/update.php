@@ -10,6 +10,15 @@
         <textarea name="author" class="form-control"><?php echo $book->author; ?></textarea>
     </div>
     <div class="form-group">
+        <label for="category">Category:</label>
+        <select class="custom-select form-control" name="category" id="category">
+            <option selected>Select Category</option>
+            <?php foreach ($categories as $key => $category): ?>
+                <option value="<?php echo $category->id; ?>"><?php echo $category->name; ?></option>
+            <?php endforeach; ?>
+        </select>
+    </div>
+    <div class="form-group">
         <input type="submit" value="Update" class="btn btn-primary"/>
         <a href="./book-management.php" class="btn btn-default">Cancel</a>
     </div>

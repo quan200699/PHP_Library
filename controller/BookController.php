@@ -48,10 +48,12 @@ class BookController
         if ($_SERVER['REQUEST_METHOD'] === 'GET') {
             $id = $_GET['id'];
             $book = $this->bookDB->getOne($id);
+            $categories = $this->categoryDB->getAll();
             include 'view/book/update.php';
         } else {
             $id = $_POST['id'];
             $book = new Book($_POST['name'], $_POST['author']);
+            $book->category = $_POST['category'];
             $this->bookDB->update($id, $book);
             header('Location: book-management.php');
         }
