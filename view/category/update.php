@@ -7,6 +7,6 @@
     </div>
     <div class="form-group">
         <input type="submit" value="Update" class="btn btn-primary"/>
-        <a href="category-manament.php" class="btn btn-default">Cancel</a>
+        <a href="./category-manament.php" class="btn btn-default">Cancel</a>
     </div>
 </form>

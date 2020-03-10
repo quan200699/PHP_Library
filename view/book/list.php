@@ -12,12 +12,14 @@
     </thead>
     <tbody>
     <?php foreach ($books as $key => $book): ?>
-    <tr>
-        <td><?php echo ++$key ?></td>
-        <td><?php echo $book->name ?></td>
-        <td><?php echo $book->author ?>
-        <td> <a href="./book-management.php?page=edit&id=<?php echo $book->id; ?>" class="btn btn-sm">Update</a></td>
-        <td> <a href="./book-management.php?page=delete&id=<?php echo $book->id; ?>" class="btn btn-warning btn-sm">Delete</a></td>
-        <?php endforeach; ?>
+        <tr>
+            <td><?php echo ++$key ?></td>
+            <td><?php echo $book->name ?></td>
+            <td><?php echo $book->author ?>
+            <td><a href="./book-management.php?page=edit&id=<?php echo $book->id; ?>" class="btn btn-sm">Update</a></td>
+            <td><a href="./book-management.php?page=delete&id=<?php echo $book->id; ?>" class="btn btn-warning btn-sm">Delete</a>
+            </td>
+        </tr>
+    <?php endforeach; ?>
     </tbody>
 </table>

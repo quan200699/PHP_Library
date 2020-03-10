@@ -4,7 +4,7 @@
 namespace Model;
 
 
-class   BookDB
+class BookDB
 {
     public $connection;
 
@@ -30,10 +30,11 @@ class   BookDB
 
     public function create($book)
     {
-        $sql = 'INSERT INTO books (name, author) VALUES (?, ?)';
+        $sql = 'INSERT INTO books (name, author, category_id) VALUES (?, ?, ?)';
         $statement = $this->connection->prepare($sql);
         $statement->bindParam(1, $book->name);
         $statement->bindParam(2, $book->author);
+        $statement->bindParam(3, $book->category);
         return $statement->execute();
     }
 

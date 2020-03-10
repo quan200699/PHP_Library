@@ -1,7 +1,9 @@
 <?php
 require "model/DBConnection.php";
 require "model/BookDB.php";
+require "model/CategoryDB.php";
 require "model/Book.php";
+require "model/Category.php";
 require "controller/BookController.php";
 
 use \Controller\BookController;

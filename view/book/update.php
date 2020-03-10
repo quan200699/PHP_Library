@@ -11,6 +11,6 @@
     </div>
     <div class="form-group">
         <input type="submit" value="Update" class="btn btn-primary"/>
-        <a href="./category-management.php" class="btn btn-default">Cancel</a>
+        <a href="./book-management.php" class="btn btn-default">Cancel</a>
     </div>
 </form>
