@@ -40,6 +40,9 @@ use \Controller\BookController;
         case 'edit':
             $controller->update();
             break;
+        case 'search':
+            $controller->searchByName();
+            break;
         default:
             $controller->getAll();
             break;

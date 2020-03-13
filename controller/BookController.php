@@ -71,4 +71,11 @@ class BookController
             header('Location: book-management.php');
         }
     }
+
+    public function searchByName()
+    {
+        $name = $_GET['nameSearch'];
+        $books = $this->bookDB->findAllByNameContaining($name);
+        include 'view/book/list.php';
+    }
 }

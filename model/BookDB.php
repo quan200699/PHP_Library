@@ -72,10 +72,18 @@ class BookDB
 
     public function findAllByNameContaining($name)
     {
-        $sql = 'SELECT * FROM books WHERE name = ?';
-        $name = "%" . $name . "%";
+        $sql = 'SELECT * FROM books WHERE name LIKE ?';
+        $name = $name . "%";
         $statement = $this->connection->prepare($sql);
         $statement->bindParam(1, $name);
-        return $statement->execute();
+        $statement->execute();
+        $result = $statement->fetchAll();
+        $books = [];
+        foreach ($result as $row) {
+            $book = new Book($row['name'], $row['author']);
+            $book->id = $row['id'];
+            $books[] = $book;
+        }
+        return $books;
     }
 }
