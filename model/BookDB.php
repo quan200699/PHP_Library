@@ -69,4 +69,13 @@ class BookDB
         $statement->bindParam(1, $id);
         return $statement->execute();
     }
+
+    public function findAllByNameContaining($name)
+    {
+        $sql = 'SELECT * FROM books WHERE name = ?';
+        $name = "%" . $name . "%";
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(1, $name);
+        return $statement->execute();
+    }
 }
