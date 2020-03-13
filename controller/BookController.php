@@ -15,7 +15,7 @@ class BookController
 
     public function __construct()
     {
-        $connection = new DBConnection("postgres:host=ec2-52-87-58-157.compute-1.amazonaws.com;dbname=d17a9mgkqjdtb8",
+        $connection = new DBConnection("pgsql:host=ec2-52-87-58-157.compute-1.amazonaws.com;dbname=d17a9mgkqjdtb8",
             "amuzveojvxwycw",
             "77e503ae4123247d680bbca6f6ddf14a2bacb8c44923466a4b190bb970d7f617");
         $this->bookDB = new BookDB($connection->connect());

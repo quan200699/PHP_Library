@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44c47987-88af-4c43-b096-00020cf43c41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/local.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.env" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,20 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="library: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="library: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="books: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="library: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="categories: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -106,7 +121,7 @@
       <workItem from="1584067814196" duration="3276000" />
       <workItem from="1584096246942" duration="399000" />
       <workItem from="1584109568886" duration="3035000" />
-      <workItem from="1584112630536" duration="389000" />
+      <workItem from="1584112630536" duration="2214000" />
     </task>
     <servers />
   </component>
