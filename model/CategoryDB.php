@@ -64,4 +64,12 @@ class CategoryDB
         $statement->bindParam(1, $id);
         return $statement->execute();
     }
+
+    public function findByName($name)
+    {
+        $sql = 'SELECT * FROM categories WHERE name = ?';
+        $statement = $this->connection->prepare($sql);
+        $statement->bindParam(1, $name);
+        return $statement->execute();
+    }
 }

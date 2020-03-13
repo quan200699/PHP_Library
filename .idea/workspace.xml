@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44c47987-88af-4c43-b096-00020cf43c41" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/71e28e03-cff5-4565-b983-f1a85b886941.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/71e28e03-cff5-4565-b983-f1a85b886941.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/BookController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/BookDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/BookDB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/book/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/book/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/CategoryDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/CategoryDB.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +103,7 @@
       <updated>1583740553231</updated>
       <workItem from="1583740554418" duration="14369000" />
       <workItem from="1583810850728" duration="1070000" />
+      <workItem from="1584067814196" duration="167000" />
     </task>
     <servers />
   </component>
