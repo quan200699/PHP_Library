@@ -22,7 +22,6 @@ if (isset($message)) {
                 <div class="form-group">
                     <label for="category">Category:</label>
                     <select class="custom-select form-control" name="category" id="category">
-                        <option selected>Select Category</option>
                         <?php foreach ($categories as $key => $category): ?>
                             <option value="<?php echo $category->id; ?>"><?php echo $category->name; ?></option>
                         <?php endforeach; ?>

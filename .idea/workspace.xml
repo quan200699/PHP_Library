@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44c47987-88af-4c43-b096-00020cf43c41" name="Default Changelist" comment="">
+    <list default="true" id="01686162-2630-4292-a433-8683c4efa836" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/BookController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/book/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/book/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/book/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/book/update.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +61,11 @@
     <select />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4f9d7c8a4ee279e3f79e691cac7d2341a7152241" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YsoEo79IGr3huVdCXXGzQeGXJq" />
@@ -127,6 +131,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="539" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583740800654">
